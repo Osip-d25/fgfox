@@ -266,6 +266,43 @@ h6 {
   transition: all 0.4s ease;
 }
 
+.btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 10px;
+  min-width: 160px;
+  background: #B0E31B;
+  -webkit-box-shadow: 0 4px 4px rgba(203, 196, 196, 0.1);
+          box-shadow: 0 4px 4px rgba(203, 196, 196, 0.1);
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 108.84%;
+  text-align: center;
+  color: #383E4B;
+  z-index: 2;
+  border: 2px solid rgba(176, 227, 27, 0);
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.btn:hover {
+  color: #B0E31B;
+  background: none;
+  border: 2px solid rgb(176, 227, 27);
+}
+
 .header {
   padding: 30px 0 40px;
   display: -webkit-box;
@@ -828,42 +865,6 @@ h6 {
   color: #B0E31B;
 }
 
-.section-promotion .promotion-box .btn {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 8px 10px;
-  min-width: 160px;
-  background: #B0E31B;
-  -webkit-box-shadow: 0 4px 4px rgba(203, 196, 196, 0.1);
-          box-shadow: 0 4px 4px rgba(203, 196, 196, 0.1);
-  border-radius: 20px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 108.84%;
-  text-align: center;
-  color: #383E4B;
-  border: 2px solid rgba(176, 227, 27, 0);
-  cursor: pointer;
-  -webkit-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-
-.section-promotion .promotion-box .btn:hover {
-  color: #B0E31B;
-  background: none;
-  border: 2px solid rgb(176, 227, 27);
-}
-
 .section-club {
   padding: 15px 0;
 }
@@ -995,43 +996,6 @@ h6 {
   margin-bottom: 15px;
 }
 
-.section-club .container .wrap .box .btn {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 8px 10px;
-  min-width: 160px;
-  background: #B0E31B;
-  -webkit-box-shadow: 0 4px 4px rgba(203, 196, 196, 0.1);
-          box-shadow: 0 4px 4px rgba(203, 196, 196, 0.1);
-  border-radius: 20px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 108.84%;
-  text-align: center;
-  color: #383E4B;
-  z-index: 2;
-  border: 2px solid rgba(176, 227, 27, 0);
-  cursor: pointer;
-  -webkit-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-
-.section-club .container .wrap .box .btn:hover {
-  color: #B0E31B;
-  background: none;
-  border: 2px solid rgb(176, 227, 27);
-}
-
 .section-club .container .box1 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -1136,42 +1100,6 @@ h6 {
   text-align: center;
   color: #FFFFFF;
   padding: 0 10px;
-}
-
-.section-support .container .wrap .item .btn {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 8px 10px;
-  min-width: 160px;
-  background: #B0E31B;
-  -webkit-box-shadow: 0 4px 4px rgba(203, 196, 196, 0.1);
-          box-shadow: 0 4px 4px rgba(203, 196, 196, 0.1);
-  border-radius: 20px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 108.84%;
-  text-align: center;
-  color: #383E4B;
-  border: 2px solid rgba(176, 227, 27, 0);
-  cursor: pointer;
-  -webkit-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-
-.section-support .container .wrap .item .btn:hover {
-  color: #B0E31B;
-  background: none;
-  border: 2px solid rgb(176, 227, 27);
 }
 
 @media (max-width: 767px) {
